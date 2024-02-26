@@ -20,7 +20,7 @@ const Clock = () => {
       <div className="flex flex-col h-screen items-center justify-center">
         <div className="text-start">
           <div className="text-5xl text-gray-700 dark:text-gray-400">
-            <span className="text-red-500 font-bold">&nbsp;{formattedday}, </span>{formattedDate}
+            <span className="text-red-500 font-bold">{formattedday}, </span>{formattedDate}
           </div>
           <div className="translate-y-[-4] text-9xl">
             {time.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: false })}

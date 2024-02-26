@@ -34,6 +34,11 @@ export function ModeToggle() {
         <DropdownMenuItem onClick={() => setTheme("system")}>
           System
         </DropdownMenuItem>
+        <DropdownMenuItem>
+          <a href="https://github.com/apoorvyadav1111" target="_blank" rel="noopener noreferrer">
+          Go to Dev Github
+          </a>
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   )
